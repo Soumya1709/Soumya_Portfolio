@@ -3,7 +3,7 @@ const Home = () => {
     return (
         <section id="home" className="min-h-screen flex relative justify-center items-center">
             <div className="text-center px-4 z-10">
-                <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+                <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
                     Hello, I'm Soumya Sinha
                 </h1>
                 <p className="text-lg mb-8 max-w-lg mx-auto text-gray-500">I'm a full-stack developer passionate about creating seamless digital experiences.I am Also Proficient in Artificial Intelligence and Machine Learning.I love Collaborating with others.</p>
