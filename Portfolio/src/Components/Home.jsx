@@ -9,7 +9,7 @@ const Home = () => {
                 <p className="text-lg mb-8 max-w-lg mx-auto text-gray-500">I'm a full-stack developer passionate about creating seamless digital experiences.I am Also Proficient in Artificial Intelligence and Machine Learning.I love Collaborating with others.</p>
                 <div className="flex justify-center space-x-4">
                 <a href="#projects" className="bg-blue-500 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] text-white font-medium py-3 px-6 rounded transition relative overflow-hidden">View Projects</a>
-                <a href="#contacts" className="bg-blue-500 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] text-white font-medium py-3 px-6 rounded transition relative overflow-hidden">Contact Me</a>
+                <a href="#contact" className="bg-blue-500 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] text-white font-medium py-3 px-6 rounded transition relative overflow-hidden">Contact Me</a>
             </div>
             </div>
             

@@ -15,10 +15,10 @@ const NavBar = ({menuOpen,setMenuOpen}) => {
                         &#9776;
                     </div>
                     <div className="hidden md:flex space-x-8 items-center">
-                        <a href="#home" className="text-white hover:text-white">{""}Home{""}</a>
-                        <a href="#about" className="text-white hover:text-white">{""}About{""}</a>
-                        <a href="#projects" className="text-white hover:text-white">{""}Projects{""}</a>
-                        <a href="#contact" className="text-white hover:text-white">{""}Contact{""}</a>
+                        <a href="#home" className="text-white hover:text-blue-400">{""}Home{""}</a>
+                        <a href="#about" className="text-white hover:text-blue-400">{""}About{""}</a>
+                        <a href="#projects" className="text-white hover:text-blue-400">{""}Projects{""}</a>
+                        <a href="#contact" className="text-white hover:text-blue-400">{""}Contact{""}</a>
                 </div>
                 </div>
                     
