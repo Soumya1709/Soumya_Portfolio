@@ -1,3 +1,5 @@
+import ChitChat from '../Assets/ChitChat.png';
+import Greenhex from '../Assets/Greenhex.png';
 const Project = () => {
     return(
         <section id="projects" className="min-h-screen flex items-center justify-center py-10">
@@ -14,18 +16,34 @@ const Project = () => {
                             <span key={index} className="bg-[#121D40] text-[#6889A6] px-3 py-1 rounded-full text-sm mr-2 hover:bg-blue-500/20 hover:shadow-[0_0_10px_rgba(59,130,246,0.5)] transistion-all">{tech}</span>
                         ))}
                     </div>
+                    <div className=" mx-5 my-5 rounded-xl  hover:-translate-y-l transistion-all bg-black/80">
+                        <img 
+                           src={Greenhex} 
+                           alt="A description of the image for accessibility" 
+                           className="rounded-xl "
+                     />
+                    </div>
+                    
                     
                 </div>
                 <div className="p-6 rounded-xl border-white border hover:- translate-y-1 transistion-all bg-black/80">
                     <h3 className="text-xl font-bold mb-2 text-[#6889A6]">
                         CHITCHAT
                     </h3>
-                    <p className="text-[#AEF2F2] mb-4">Developed an AI Based Chat Application using React and Node.js.</p>
+                    <p className="text-[#AEF2F2] mb-4">Developed an  interactive and responsive AI Based Chat Application using React and Node.js.</p>
                     <div>
                         {['React', 'Node.js', 'Express', 'MongoDB'].map((tech, index) => (
                             <span key={index} className="bg-[#121D40] text-[#6889A6] px-3 py-1 rounded-full text-sm mr-2 hover:bg-blue-500/20 hover:shadow-[0_0_10px_rgba(59,130,246,0.5)] transistion-all">{tech}</span>
                         ))}
                     </div>
+                    <div className=" mx-5 my-5 rounded-xl  hover:-translate-y-l transistion-all bg-black/80">
+                        <img 
+                           src={ChitChat} 
+                           alt="A description of the image for accessibility" 
+                           className="rounded-xl "
+                     />
+                    </div>
+                    
                     
                 </div>
 
