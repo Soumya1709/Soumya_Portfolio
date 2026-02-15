@@ -4,19 +4,19 @@ const Project = () => {
     return(
         <section id="projects" className="min-h-screen flex items-center justify-center py-10">
           <div className="max-w-6xl mx-auto px-4 text-center">
-            <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Projects</h2>
+            <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-[#F9F5F6] to-[#A1E3F9] bg-clip-text text-transparent">Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                 <div className="p-6 rounded-xl border-white border hover:- translate-y-1 transistion-all bg-black/80">
-                    <h3 className="text-xl font-bold mb-2 text-[#6889A6]">
+                    <h3 className="text-xl font-bold mb-2 text-[#81E7AF]">
                         GREENHEX
                     </h3>
-                    <p className="text-[#AEF2F2] mb-4">Developed a web application for environmental sustainability using React and Node.js.</p>
+                    <p className="text-[#FFFDCB] mb-4">Developed a web application for environmental sustainability using React and Node.js.</p>
                     <div>
                         {['React', 'Node.js', 'Express', 'MongoDB'].map((tech, index) => (
-                            <span key={index} className="bg-[#121D40] text-[#6889A6] px-3 py-1 rounded-full text-sm mr-2 hover:bg-blue-500/20 hover:shadow-[0_0_10px_rgba(59,130,246,0.5)] transistion-all">{tech}</span>
+                            <span key={index} className="bg-[#A1E3F9] text-[#6889A6] px-3 py-1 rounded-full text-sm mr-2 hover:bg-blue-500/20 hover:shadow-[0_0_10px_rgba(59,130,246,0.5)] transistion-all">{tech}</span>
                         ))}
                     </div>
-                    <div className=" mx-5 my-5 rounded-xl  hover:-translate-y-l transistion-all bg-black/80">
+                    <div className=" mx-5 my-5 rounded-xl  hover:-translate-y-1 transistion-all bg-black/80">
                         <img 
                            src={Greenhex} 
                            alt="A description of the image for accessibility" 
@@ -27,16 +27,16 @@ const Project = () => {
                     
                 </div>
                 <div className="p-6 rounded-xl border-white border hover:- translate-y-1 transistion-all bg-black/80">
-                    <h3 className="text-xl font-bold mb-2 text-[#6889A6]">
+                    <h3 className="text-xl font-bold mb-2 text-[#81E7AF]">
                         CHITCHAT
                     </h3>
-                    <p className="text-[#AEF2F2] mb-4">Developed an  interactive and responsive AI Based Chat Application using React and Node.js.</p>
+                    <p className="text-[#FFFDCB] mb-4">Developed an  interactive and responsive AI Based Chat Application using React and Node.js.</p>
                     <div>
                         {['React', 'Node.js', 'Express', 'MongoDB'].map((tech, index) => (
-                            <span key={index} className="bg-[#121D40] text-[#6889A6] px-3 py-1 rounded-full text-sm mr-2 hover:bg-blue-500/20 hover:shadow-[0_0_10px_rgba(59,130,246,0.5)] transistion-all">{tech}</span>
+                            <span key={index} className="bg-[#A1E3F9] text-[#6889A6] px-3 py-1 rounded-full text-sm mr-2 hover:bg-blue-500/20 hover:shadow-[0_0_10px_rgba(59,130,246,0.5)] transistion-all">{tech}</span>
                         ))}
                     </div>
-                    <div className=" mx-5 my-5 rounded-xl  hover:-translate-y-l transistion-all bg-black/80">
+                    <div className=" mx-5 my-5 rounded-xl  hover:-translate-y-1 transistion-all bg-black/80">
                         <img 
                            src={ChitChat} 
                            alt="A description of the image for accessibility" 
