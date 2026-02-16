@@ -1,5 +1,5 @@
-import ChitChat from '../Assets/ChitChat.png';
-import Greenhex from '../Assets/Greenhex.png';
+import ChitChat from '../assets/ChitChat.png';
+import Greenhex from '../assets/Greenhex.png';
 const Project = () => {
     return(
         <section id="projects" className="min-h-screen flex items-center justify-center py-10">
