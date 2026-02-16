@@ -6,7 +6,7 @@ import Home from './Components/Home.jsx'
 import About from './Components/About.jsx'
 import Project from './Components/Project.jsx'
 import Contact from './Components/Contact.jsx'
-import Videobg from './assets/Background.mp4'
+
 
 export default function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,7 +14,7 @@ export default function App() {
     <>
     <div> 
 
-      <video src={Videobg} autoPlay loop muted></video>
+      <video src="/Background.mp4" autoPlay loop muted></video>
       <NavBar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Home />
       <About />
