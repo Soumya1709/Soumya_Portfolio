@@ -91,10 +91,10 @@ const Contact = () => {
                         </a>
 
                         <div className="flex items-center justify-center gap-6 rounded-full bg-white/5 p-4">
-                            <a href="https://www.instagram.com/soumya_ranchi_05/" target="_blank" rel="noopener noreferrer" className="text-[#F3F4F4]/80 hover:text-pink-400 hover:-translate-y-0.5 transition-all duration-300">
+                            <a href="https://www.instagram.com/soumyasinha7765/" target="_blank" rel="noopener noreferrer" className="text-[#F3F4F4]/80 hover:text-pink-400 hover:-translate-y-0.5 transition-all duration-300">
                                 <Instagram />
                             </a>
-                            <a href="https://linkedin.com/in/soumya-sinha" target="_blank" rel="noopener noreferrer" className="text-[#F3F4F4]/80 hover:text-[#A1E3F9] hover:-translate-y-0.5 transition-all duration-300">
+                            <a href="https://linkedin.com/in/soumya-sinha1210" target="_blank" rel="noopener noreferrer" className="text-[#F3F4F4]/80 hover:text-[#A1E3F9] hover:-translate-y-0.5 transition-all duration-300">
                                 <Linkedin />
                             </a>
                         </div>

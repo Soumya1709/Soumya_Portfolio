@@ -1,6 +1,8 @@
 import { Github, MessageSquareText, Search, ShieldCheck } from 'lucide-react';
 import ChitChat from '../assets/ChitChat.png';
 import Greenhex from '../assets/Greenhex.png';
+import Findora from '../assets/Findora.png';
+import CreditCardFraud from '../assets/Fraud.png';
 
 const projects = [
     {
@@ -10,7 +12,7 @@ const projects = [
         tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Socket.IO', 'JWT', 'Google OAuth'],
         image: ChitChat,
         icon: MessageSquareText,
-        github: 'https://github.com/Soumya1709',
+        github: 'https://github.com/Soumya1709/Chit-Chat.git',
     },
     {
         title: 'GREENHEX',
@@ -19,25 +21,25 @@ const projects = [
         tech: ['React', 'Node.js', 'Express', 'MongoDB'],
         image: Greenhex,
         icon: Search,
-        github: 'https://github.com/Soumya1709',
+        github: 'https://github.com/Soumya1709/eco-gladiator.git',
     },
     {
         title: 'FINDORA',
         subtitle: 'AI-Powered Campus Lost & Found Portal',
         description: 'End-to-end MERN platform enabling students to report, search, and claim lost items. Integrated an AI-powered image-matching pipeline to auto-identify visually similar items, with JWT-based auth and role-based access control securing claim workflows.',
         tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'AI Image Matching'],
-        image: null,
+        image: Findora,
         icon: Search,
-        github: 'https://github.com/Soumya1709',
+        github: 'https://github.com/Soumya1709/Findora.git',
     },
     {
         title: 'CREDIT CARD FRAUD DETECTION',
         subtitle: 'Machine Learning Pipeline',
         description: 'Built a fraud detection ML pipeline on a severely imbalanced dataset (~0.2% positive class) using SMOTE. Benchmarked Random Forest vs. XGBoost, reaching 83% precision-recall on the fraud class, evaluated via precision, recall, F1, and AUC-ROC.',
         tech: ['Python', 'scikit-learn', 'XGBoost', 'Random Forest', 'Pandas', 'NumPy', 'SMOTE'],
-        image: null,
+        image: CreditCardFraud,
         icon: ShieldCheck,
-        github: 'https://github.com/Soumya1709',
+        github: 'https://github.com/Soumya1709/Credit_Card_Fraud_Model.git',
     },
 ];
 
